@@ -2,7 +2,7 @@ name: Thingy
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 */2 * * *"
     
 jobs:
   build:
